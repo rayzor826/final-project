@@ -17,9 +17,116 @@
      
          <!-- Font Awesome-->
          <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
          <!--END Font Awesome-->
     <link rel="stylesheet" href="CSS Folder/style.css">
+    <style>
+    .form-group {
+        background-color: #eee;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #888;
+    }
+
+    .button {
+        background-color: gold;
+        border-radius: 5px;
+        padding: 10px;
+        border: 0;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    form {
+        border: 3px double #999;
+        margin-bottom: 50px;
+        padding: 20px;
+        max-width: 1200px;
+        width:50%;
+        text-align: center;
+        margin-left: 25%
+        
+    }
+
+    textarea {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #888;
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    select {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #888;
+        display: block;
+        width: 100%;
+    }
+
+    figure {
+        background-color: gold;
+
+    }
+
+    figure::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    img {
+        float: left;
+    }
+
+    figcaption {
+        float: left;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+
+    table {
+
+    }
+
+    th {
+        background-color: green;
+        color: #fff;
+    }
+
+    td,
+    th {
+        padding: 10px;
+
+    }
+
+    td {
+        background-color: pink;
+    }
+    iframe
+      {
+        width: 1080px;
+        height: 720px;
+        margin: 0 auto;
+        background-color: #777;
+        display:block;
+      }
+    </style>
     <title>Contact</title>
 </head>
 <body>
@@ -37,15 +144,36 @@
     </nav>
 
 
-    <h2>Contact Me!</h2>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label>
+    <!--JUST A MOCK FORM-->
+    <h1>Contact Me!</h!>
+    <form action="/action_page.php" style="align-items: center;">
+        <label for="fname">name:</label>
         <input type="text" id="fname" name="fname" placeholder="Enter Name"><br><br>
         <label for="lname">Email:</label>
         <input type="text" id="lname" name="lname" placeholder="Enter Email"><br><br>
+        <label for="lname">Subject:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Subject"><br><br>
+        <label for="lname">Message:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Message"><br><br>
         <input type="submit" value="Submit">
       </form>
+      <!--JUST A MOCK FORM-->
 
+      <h1>(make sure to check your spam folder for our reply back!) </h1>
+
+      <br>
+      <h1>Located in Coalinga, California USA</h1>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51546.66368717882!2d-120.33881040306325!3d36.15033315912413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809341ffd6834e49%3A0xd0eb8b14273e7dd0!2sCoalinga%2C%20CA%2093210!5e0!3m2!1sen!2sus!4v1631495628235!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <br>
+
+      <div class="footer">
+        <p>Social Media</p>
+        <a href="https://www.facebook.com/synthzone/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/BigRay826" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/bigray826/" target="_blank" class="fa fa-instagram"></a>
+      </div>
 
 </body>
 </html>

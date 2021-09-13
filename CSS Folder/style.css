@@ -1,7 +1,8 @@
 body {
     background-color: black;
     font-family: 'Bebas Neue', cursive;
-    color: white
+    color: white;
+    margin: 0;
 }
 
 h1 {
@@ -37,3 +38,36 @@ ul {
     background-color: #111;
     color: white;
   }
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+ }
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.avatar {
+  width: 200px;
+  height: 100px;
+}
